@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>demo</title>
+      <link href="/2020/07/14/demo/"/>
+      <url>/2020/07/14/demo/</url>
+      
+        <content type="html"><![CDATA[<h1 id="neo2-firmware"><a href="#neo2-firmware" class="headerlink" title="neo2_firmware"></a>neo2_firmware</h1><p>这里的固件都是没有oled驱动的，所以有屏幕版本的neo2可以用这里的固件，但是屏幕是不亮的</p><h2 id="固件升级方法"><a href="#固件升级方法" class="headerlink" title="固件升级方法"></a>固件升级方法</h2><p>进入系统 -&gt; 备份/升级 -&gt; 刷写新的固件 -&gt;  选择文件 -&gt; 更新固件  （建议不保留配置升级）<br><img src="https://github.com/HZSUZJ/neo2_firmware/blob/master/images/1.jpg" alt="image"><br><img src="https://github.com/HZSUZJ/neo2_firmware/blob/master/images/2.png" alt="image"></p><p><strong>升级后，一般还是原来的ip去访问。倘若不行，去路由器（或光猫）后台查看分配给neo2的ip，neo2的主机名为openwrt</strong>  </p><h2 id="可能遇到的问题"><a href="#可能遇到的问题" class="headerlink" title="可能遇到的问题"></a>可能遇到的问题</h2><p>单臂路由模式下，如果无法访问国内网站，尝试在网络防火墙自定义规则添加这条规则：<br>iptables -t nat -I POSTROUTING -o eth0 -j MASQUERADE  </p><h2 id="固件地址"><a href="#固件地址" class="headerlink" title="固件地址"></a>固件地址</h2><p>固件ip默认DHCP<br><a href="https://github.com/HZSUZJ/neo2_firmware/releases" target="_blank" rel="noopener">历史固件</a></p><h2 id="如果帮助到您，能给颗star鼓励下嘛"><a href="#如果帮助到您，能给颗star鼓励下嘛" class="headerlink" title="如果帮助到您，能给颗star鼓励下嘛~~"></a>如果帮助到您，能给颗star鼓励下嘛~~</h2>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2020/07/14/hello-world/"/>
+      <url>/2020/07/14/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
