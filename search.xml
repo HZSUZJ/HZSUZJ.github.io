@@ -2,19 +2,6 @@
 <search> 
   
   
-    
-    <entry>
-      <title>demo</title>
-      <link href="/2020/07/14/demo/"/>
-      <url>/2020/07/14/demo/</url>
-      
-        <content type="html"><![CDATA[<h1 id="neo2-firmware"><a href="#neo2-firmware" class="headerlink" title="neo2_firmware"></a>neo2_firmware</h1><p>这里的固件都是没有oled驱动的，所以有屏幕版本的neo2可以用这里的固件，但是屏幕是不亮的</p><h2 id="固件升级方法"><a href="#固件升级方法" class="headerlink" title="固件升级方法"></a>固件升级方法</h2><p>进入系统 -&gt; 备份/升级 -&gt; 刷写新的固件 -&gt;  选择文件 -&gt; 更新固件  （建议不保留配置升级）<br><img src="https://github.com/HZSUZJ/neo2_firmware/blob/master/images/1.jpg" alt="image"><br><img src="https://github.com/HZSUZJ/neo2_firmware/blob/master/images/2.png" alt="image"></p><p><strong>升级后，一般还是原来的ip去访问。倘若不行，去路由器（或光猫）后台查看分配给neo2的ip，neo2的主机名为openwrt</strong>  </p><h2 id="可能遇到的问题"><a href="#可能遇到的问题" class="headerlink" title="可能遇到的问题"></a>可能遇到的问题</h2><p>单臂路由模式下，如果无法访问国内网站，尝试在网络防火墙自定义规则添加这条规则：<br>iptables -t nat -I POSTROUTING -o eth0 -j MASQUERADE  </p><h2 id="固件地址"><a href="#固件地址" class="headerlink" title="固件地址"></a>固件地址</h2><p>固件ip默认DHCP<br><a href="https://github.com/HZSUZJ/neo2_firmware/releases" target="_blank" rel="noopener">历史固件</a></p><h2 id="如果帮助到您，能给颗star鼓励下嘛"><a href="#如果帮助到您，能给颗star鼓励下嘛" class="headerlink" title="如果帮助到您，能给颗star鼓励下嘛~~"></a>如果帮助到您，能给颗star鼓励下嘛~~</h2>]]></content>
-      
-      
-      
-    </entry>
-    
-    
   
   
 </search>
